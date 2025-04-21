@@ -1,0 +1,16 @@
+[package]
+name = "rusty-utils"
+version = "0.1.0"
+edition = "2024"
+
+
+[workspace]
+members = [
+    "tools/echo",
+    "tools/cat",
+    "tools/ls",
+    "tools/find",
+    "tools/grep"
+]
+
+[dependencies]
